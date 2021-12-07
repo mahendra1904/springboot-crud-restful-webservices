@@ -10,7 +10,7 @@ phases:
       - mvn install
   post_build:
     commands:
-      - mvn mvn clean install
+      - mvn clean install
 
 artifacts:
   files:
