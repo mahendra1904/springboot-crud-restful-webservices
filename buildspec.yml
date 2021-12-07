@@ -14,5 +14,6 @@ phases:
 
 artifacts:
   files:
-    - target/springboot-crud-restful-webservices.jar
+    - '**/springboot-crud-restful-webservices-0.0.1-SNAPSHOT.jar'
+  
  
