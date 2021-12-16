@@ -11,6 +11,7 @@ phases:
   post_build:
     commands:
       - mvn clean install
+      - mv target/springboot-crud-restful-webservices-0.0.1-SNAPSHOT.jar springboot-crud-restful-webservices-0.0.1-SNAPSHOT.jar
 
 artifacts:
   files:
